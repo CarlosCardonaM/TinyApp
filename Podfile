@@ -7,5 +7,7 @@ target 'TinyApp' do
 
   # Pods for TinyApp
 pod 'Google-Mobile-Ads-SDK'
+pod 'RxSwift'
+pod 'RxRelay'
 
 end

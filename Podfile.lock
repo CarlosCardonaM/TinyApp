@@ -32,9 +32,14 @@ PODS:
   - nanopb/decode (2.30907.0)
   - nanopb/encode (2.30907.0)
   - PromisesObjC (1.2.12)
+  - RxRelay (6.1.0):
+    - RxSwift (= 6.1.0)
+  - RxSwift (6.1.0)
 
 DEPENDENCIES:
   - Google-Mobile-Ads-SDK
+  - RxRelay
+  - RxSwift
 
 SPEC REPOS:
   trunk:
@@ -44,6 +49,8 @@ SPEC REPOS:
     - GoogleUtilities
     - nanopb
     - PromisesObjC
+    - RxRelay
+    - RxSwift
 
 SPEC CHECKSUMS:
   Google-Mobile-Ads-SDK: c14f5a63db1414b4ca0ee1539c9f3d700ace96c2
@@ -52,7 +59,9 @@ SPEC CHECKSUMS:
   GoogleUtilities: 31c5b01f978a70c6cff2afc6272b3f1921614b43
   nanopb: 59221d7f958fb711001e6a449489542d92ae113e
   PromisesObjC: 3113f7f76903778cf4a0586bd1ab89329a0b7b97
+  RxRelay: 483e1a19fad961b41f0b0c0bee506f46c1ae14fe
+  RxSwift: a834e5c538e89eca0cae86f403f4fbf0336786ce
 
-PODFILE CHECKSUM: b8fa6f5bd1b1a339293b0f7f7482133dc0654fad
+PODFILE CHECKSUM: c0f36797c7380090395f3bdb7577016d87d2e672
 
 COCOAPODS: 1.10.1

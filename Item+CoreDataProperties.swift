@@ -2,7 +2,7 @@
 //  Item+CoreDataProperties.swift
 //  TinyApp
 //
-//  Created by Carlos Cardona on 05/04/21.
+//  Created by Carlos Cardona on 13/04/21.
 //
 //
 

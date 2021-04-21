@@ -10,16 +10,16 @@
 		4893DE24261BD8DB002737CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4893DE23261BD8DB002737CD /* AppDelegate.swift */; };
 		4893DE26261BD8DB002737CD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4893DE25261BD8DB002737CD /* SceneDelegate.swift */; };
 		4893DE2B261BD8DB002737CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4893DE29261BD8DB002737CD /* Main.storyboard */; };
-		4893DE2E261BD8DB002737CD /* TinyApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4893DE2C261BD8DB002737CD /* TinyApp.xcdatamodeld */; };
 		4893DE30261BD8DE002737CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4893DE2F261BD8DE002737CD /* Assets.xcassets */; };
 		4893DE33261BD8DE002737CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4893DE31261BD8DE002737CD /* LaunchScreen.storyboard */; };
-		4893DE3F261BD955002737CD /* Total+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4893DE3B261BD955002737CD /* Total+CoreDataClass.swift */; };
-		4893DE40261BD955002737CD /* Total+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4893DE3C261BD955002737CD /* Total+CoreDataProperties.swift */; };
 		4893DE4C261BDCA8002737CD /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4893DE4B261BDCA8002737CD /* HomeViewController.swift */; };
-		4893DE6E261C1369002737CD /* Item+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4893DE6C261C1369002737CD /* Item+CoreDataClass.swift */; };
-		4893DE6F261C1369002737CD /* Item+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4893DE6D261C1369002737CD /* Item+CoreDataProperties.swift */; };
-		4893DE72261CE211002737CD /* AboutMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4893DE71261CE211002737CD /* AboutMeViewController.swift */; };
 		4893DE84261E8849002737CD /* AppTrackingTransparency.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4893DE83261E8849002737CD /* AppTrackingTransparency.framework */; };
+		48A5EEC2262525C100594426 /* AboutMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A5EEC1262525C100594426 /* AboutMeViewController.swift */; };
+		48A5EEE62625281700594426 /* TinyApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 48A5EEE42625281700594426 /* TinyApp.xcdatamodeld */; };
+		48A5EEEE262528EC00594426 /* Total+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A5EEEA262528EC00594426 /* Total+CoreDataClass.swift */; };
+		48A5EEEF262528EC00594426 /* Total+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A5EEEB262528EC00594426 /* Total+CoreDataProperties.swift */; };
+		48A5EEF0262528EC00594426 /* Item+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A5EEEC262528EC00594426 /* Item+CoreDataClass.swift */; };
+		48A5EF2726261C1900594426 /* Item+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A5EF2626261C1900594426 /* Item+CoreDataProperties.swift */; };
 		53A4BFF94F97BB8999CB5AAF /* Pods_TinyApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A53C902A0742600BE3AD721A /* Pods_TinyApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,17 +28,17 @@
 		4893DE23261BD8DB002737CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4893DE25261BD8DB002737CD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		4893DE2A261BD8DB002737CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4893DE2D261BD8DB002737CD /* TinyApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TinyApp.xcdatamodel; sourceTree = "<group>"; };
 		4893DE2F261BD8DE002737CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4893DE32261BD8DE002737CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4893DE34261BD8DE002737CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4893DE3B261BD955002737CD /* Total+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Total+CoreDataClass.swift"; sourceTree = "<group>"; };
-		4893DE3C261BD955002737CD /* Total+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Total+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		4893DE4B261BDCA8002737CD /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		4893DE6C261C1369002737CD /* Item+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataClass.swift"; sourceTree = "<group>"; };
-		4893DE6D261C1369002737CD /* Item+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		4893DE71261CE211002737CD /* AboutMeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMeViewController.swift; sourceTree = "<group>"; };
 		4893DE83261E8849002737CD /* AppTrackingTransparency.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppTrackingTransparency.framework; path = System/Library/Frameworks/AppTrackingTransparency.framework; sourceTree = SDKROOT; };
+		48A5EEC1262525C100594426 /* AboutMeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AboutMeViewController.swift; path = ../../../../.Trash/AboutMeViewController.swift; sourceTree = "<group>"; };
+		48A5EEE52625281700594426 /* TinyApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TinyApp.xcdatamodel; sourceTree = "<group>"; };
+		48A5EEEA262528EC00594426 /* Total+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Total+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		48A5EEEB262528EC00594426 /* Total+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Total+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		48A5EEEC262528EC00594426 /* Item+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		48A5EF2626261C1900594426 /* Item+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 		4DFCC277D4C964F60C3A5970 /* Pods-TinyApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TinyApp.debug.xcconfig"; path = "Target Support Files/Pods-TinyApp/Pods-TinyApp.debug.xcconfig"; sourceTree = "<group>"; };
 		A53C902A0742600BE3AD721A /* Pods_TinyApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TinyApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC195A4431CC319D015DB68D /* Pods-TinyApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TinyApp.release.xcconfig"; path = "Target Support Files/Pods-TinyApp/Pods-TinyApp.release.xcconfig"; sourceTree = "<group>"; };
@@ -60,8 +60,6 @@
 		4893DE17261BD8DB002737CD = {
 			isa = PBXGroup;
 			children = (
-				4893DE6C261C1369002737CD /* Item+CoreDataClass.swift */,
-				4893DE6D261C1369002737CD /* Item+CoreDataProperties.swift */,
 				4893DE22261BD8DB002737CD /* TinyApp */,
 				4893DE21261BD8DB002737CD /* Products */,
 				558AB87E2D73057D456902D8 /* Pods */,
@@ -80,16 +78,13 @@
 		4893DE22261BD8DB002737CD /* TinyApp */ = {
 			isa = PBXGroup;
 			children = (
-				4893DE44261BD95A002737CD /* Model */,
 				4893DE23261BD8DB002737CD /* AppDelegate.swift */,
 				4893DE25261BD8DB002737CD /* SceneDelegate.swift */,
-				4893DE4B261BDCA8002737CD /* HomeViewController.swift */,
-				4893DE29261BD8DB002737CD /* Main.storyboard */,
-				4893DE2F261BD8DE002737CD /* Assets.xcassets */,
-				4893DE31261BD8DE002737CD /* LaunchScreen.storyboard */,
+				4893DE44261BD95A002737CD /* Model */,
+				48E80E5826309B4100334D41 /* Controller */,
+				48E80E5A26309B4800334D41 /* View */,
 				4893DE34261BD8DE002737CD /* Info.plist */,
-				4893DE2C261BD8DB002737CD /* TinyApp.xcdatamodeld */,
-				4893DE71261CE211002737CD /* AboutMeViewController.swift */,
+				48A5EEE42625281700594426 /* TinyApp.xcdatamodeld */,
 			);
 			path = TinyApp;
 			sourceTree = "<group>";
@@ -97,10 +92,31 @@
 		4893DE44261BD95A002737CD /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				4893DE3B261BD955002737CD /* Total+CoreDataClass.swift */,
-				4893DE3C261BD955002737CD /* Total+CoreDataProperties.swift */,
+				48A5EF2626261C1900594426 /* Item+CoreDataProperties.swift */,
+				48A5EEEC262528EC00594426 /* Item+CoreDataClass.swift */,
+				48A5EEEA262528EC00594426 /* Total+CoreDataClass.swift */,
+				48A5EEEB262528EC00594426 /* Total+CoreDataProperties.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		48E80E5826309B4100334D41 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4893DE4B261BDCA8002737CD /* HomeViewController.swift */,
+				48A5EEC1262525C100594426 /* AboutMeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		48E80E5A26309B4800334D41 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4893DE29261BD8DB002737CD /* Main.storyboard */,
+				4893DE2F261BD8DE002737CD /* Assets.xcassets */,
+				4893DE31261BD8DE002737CD /* LaunchScreen.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		558AB87E2D73057D456902D8 /* Pods */ = {
@@ -235,15 +251,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4893DE40261BD955002737CD /* Total+CoreDataProperties.swift in Sources */,
-				4893DE3F261BD955002737CD /* Total+CoreDataClass.swift in Sources */,
-				4893DE6F261C1369002737CD /* Item+CoreDataProperties.swift in Sources */,
 				4893DE4C261BDCA8002737CD /* HomeViewController.swift in Sources */,
-				4893DE2E261BD8DB002737CD /* TinyApp.xcdatamodeld in Sources */,
+				48A5EEEF262528EC00594426 /* Total+CoreDataProperties.swift in Sources */,
 				4893DE24261BD8DB002737CD /* AppDelegate.swift in Sources */,
+				48A5EEE62625281700594426 /* TinyApp.xcdatamodeld in Sources */,
 				4893DE26261BD8DB002737CD /* SceneDelegate.swift in Sources */,
-				4893DE72261CE211002737CD /* AboutMeViewController.swift in Sources */,
-				4893DE6E261C1369002737CD /* Item+CoreDataClass.swift in Sources */,
+				48A5EEEE262528EC00594426 /* Total+CoreDataClass.swift in Sources */,
+				48A5EF2726261C1900594426 /* Item+CoreDataProperties.swift in Sources */,
+				48A5EEF0262528EC00594426 /* Item+CoreDataClass.swift in Sources */,
+				48A5EEC2262525C100594426 /* AboutMeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,12 +465,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		4893DE2C261BD8DB002737CD /* TinyApp.xcdatamodeld */ = {
+		48A5EEE42625281700594426 /* TinyApp.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				4893DE2D261BD8DB002737CD /* TinyApp.xcdatamodel */,
+				48A5EEE52625281700594426 /* TinyApp.xcdatamodel */,
 			);
-			currentVersion = 4893DE2D261BD8DB002737CD /* TinyApp.xcdatamodel */;
+			currentVersion = 48A5EEE52625281700594426 /* TinyApp.xcdatamodel */;
 			path = TinyApp.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
