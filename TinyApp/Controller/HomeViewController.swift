@@ -335,9 +335,9 @@ extension HomeViewController: GADBannerViewDelegate {
     }
     
     func configureBannerView() {
-        bannerView!.adUnitID = "ca-app-pub-3940256099942544/2934735716"
-        bannerView!.load(GADRequest())
-        bannerView!.backgroundColor = .secondarySystemBackground
-        bannerView!.rootViewController = self
+        bannerView?.adUnitID = "ca-app-pub-3940256099942544/2934735716"
+        bannerView?.load(GADRequest())
+        bannerView?.backgroundColor = .secondarySystemBackground
+        bannerView?.rootViewController = self
     }
 }

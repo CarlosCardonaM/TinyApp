@@ -11,7 +11,7 @@ import SafariServices
 class AboutMeViewController: UIViewController {
     
     
-    @IBOutlet weak var removeBtn: UIButton!
+    @IBOutlet weak var removeBtn: UIButton?
     
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
     
@@ -22,7 +22,7 @@ class AboutMeViewController: UIViewController {
         
         if UserDefaults.standard.bool(forKey: PurchaseManager.instance.IAP_REMOVE_ADS) {
             //TODO: remove from superview the label
-            removeBtn.removeFromSuperview()
+            removeBtn?.removeFromSuperview()
         }
     }
     
@@ -58,7 +58,7 @@ class AboutMeViewController: UIViewController {
         PurchaseManager.instance.purchaseRemoveAds { success in
             if success {
 //                HomeViewController.instance.bannerView.removeFromSuperview()
-                self.removeBtn.removeFromSuperview()
+                self.removeBtn?.removeFromSuperview()
                 self.activityIndicator.stopAnimating()
             
             } else {
@@ -77,7 +77,7 @@ class AboutMeViewController: UIViewController {
             if success {
                 if UserDefaults.standard.bool(forKey: PurchaseManager.instance.IAP_REMOVE_ADS) {
                     //TODO: remove from superview the label
-                    self.removeBtn.removeFromSuperview()
+                    self.removeBtn?.removeFromSuperview()
                 }
             }
         }

@@ -13,7 +13,7 @@ class PurchaseManager: NSObject, SKProductsRequestDelegate, SKPaymentTransaction
     
     static let instance = PurchaseManager()
     
-    let IAP_REMOVE_ADS = "com.tinyApp.eliminar.publicidad"
+    let IAP_REMOVE_ADS = "com.TinyApp.Removing.Ads"
     
     
     var productsRequest: SKProductsRequest!
@@ -51,6 +51,7 @@ class PurchaseManager: NSObject, SKProductsRequestDelegate, SKPaymentTransaction
         if SKPaymentQueue.canMakePayments() {
             transactionComplete = onComplete
             SKPaymentQueue.default().add(self)
+            SKPaymentQueue.default().restoreCompletedTransactions()
             
         } else {
             onComplete(false)
