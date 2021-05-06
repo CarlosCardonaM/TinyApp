@@ -16,10 +16,7 @@ extension Total {
         return NSFetchRequest<Total>(entityName: "Total")
     }
 
-    @NSManaged public var ahorroMeta: Double
     @NSManaged public var totalAhorrado: Double
-    @NSManaged public var totalGastado: Double
-
 }
 
 extension Total : Identifiable {

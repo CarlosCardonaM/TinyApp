@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		480EBA8A2643304300C29FDE /* AboutMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480EBA892643304300C29FDE /* AboutMeViewController.swift */; };
+		480EBA8D2643436800C29FDE /* PurchaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480EBA8C2643436800C29FDE /* PurchaseManager.swift */; };
 		4893DE24261BD8DB002737CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4893DE23261BD8DB002737CD /* AppDelegate.swift */; };
 		4893DE26261BD8DB002737CD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4893DE25261BD8DB002737CD /* SceneDelegate.swift */; };
 		4893DE2B261BD8DB002737CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4893DE29261BD8DB002737CD /* Main.storyboard */; };
@@ -14,16 +16,19 @@
 		4893DE33261BD8DE002737CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4893DE31261BD8DE002737CD /* LaunchScreen.storyboard */; };
 		4893DE4C261BDCA8002737CD /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4893DE4B261BDCA8002737CD /* HomeViewController.swift */; };
 		4893DE84261E8849002737CD /* AppTrackingTransparency.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4893DE83261E8849002737CD /* AppTrackingTransparency.framework */; };
-		48A5EEC2262525C100594426 /* AboutMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A5EEC1262525C100594426 /* AboutMeViewController.swift */; };
 		48A5EEE62625281700594426 /* TinyApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 48A5EEE42625281700594426 /* TinyApp.xcdatamodeld */; };
 		48A5EEEE262528EC00594426 /* Total+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A5EEEA262528EC00594426 /* Total+CoreDataClass.swift */; };
 		48A5EEEF262528EC00594426 /* Total+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A5EEEB262528EC00594426 /* Total+CoreDataProperties.swift */; };
 		48A5EEF0262528EC00594426 /* Item+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A5EEEC262528EC00594426 /* Item+CoreDataClass.swift */; };
 		48A5EF2726261C1900594426 /* Item+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A5EF2626261C1900594426 /* Item+CoreDataProperties.swift */; };
+		48A9647526434B8A003FEEB5 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48A9647426434B8A003FEEB5 /* StoreKit.framework */; };
+		48E80E662630EFC500334D41 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E80E642630EFC500334D41 /* AddViewController.swift */; };
 		53A4BFF94F97BB8999CB5AAF /* Pods_TinyApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A53C902A0742600BE3AD721A /* Pods_TinyApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		480EBA892643304300C29FDE /* AboutMeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMeViewController.swift; sourceTree = "<group>"; };
+		480EBA8C2643436800C29FDE /* PurchaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseManager.swift; sourceTree = "<group>"; };
 		4893DE20261BD8DB002737CD /* TinyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4893DE23261BD8DB002737CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4893DE25261BD8DB002737CD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -33,12 +38,13 @@
 		4893DE34261BD8DE002737CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4893DE4B261BDCA8002737CD /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		4893DE83261E8849002737CD /* AppTrackingTransparency.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppTrackingTransparency.framework; path = System/Library/Frameworks/AppTrackingTransparency.framework; sourceTree = SDKROOT; };
-		48A5EEC1262525C100594426 /* AboutMeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AboutMeViewController.swift; path = ../../../../.Trash/AboutMeViewController.swift; sourceTree = "<group>"; };
 		48A5EEE52625281700594426 /* TinyApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TinyApp.xcdatamodel; sourceTree = "<group>"; };
 		48A5EEEA262528EC00594426 /* Total+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Total+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
 		48A5EEEB262528EC00594426 /* Total+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Total+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 		48A5EEEC262528EC00594426 /* Item+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
 		48A5EF2626261C1900594426 /* Item+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		48A9647426434B8A003FEEB5 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		48E80E642630EFC500334D41 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 		4DFCC277D4C964F60C3A5970 /* Pods-TinyApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TinyApp.debug.xcconfig"; path = "Target Support Files/Pods-TinyApp/Pods-TinyApp.debug.xcconfig"; sourceTree = "<group>"; };
 		A53C902A0742600BE3AD721A /* Pods_TinyApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TinyApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC195A4431CC319D015DB68D /* Pods-TinyApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TinyApp.release.xcconfig"; path = "Target Support Files/Pods-TinyApp/Pods-TinyApp.release.xcconfig"; sourceTree = "<group>"; };
@@ -49,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48A9647526434B8A003FEEB5 /* StoreKit.framework in Frameworks */,
 				53A4BFF94F97BB8999CB5AAF /* Pods_TinyApp.framework in Frameworks */,
 				4893DE84261E8849002737CD /* AppTrackingTransparency.framework in Frameworks */,
 			);
@@ -57,6 +64,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		480EBA8B2643434600C29FDE /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				480EBA8C2643436800C29FDE /* PurchaseManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		4893DE17261BD8DB002737CD = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +95,7 @@
 			children = (
 				4893DE23261BD8DB002737CD /* AppDelegate.swift */,
 				4893DE25261BD8DB002737CD /* SceneDelegate.swift */,
+				480EBA8B2643434600C29FDE /* Services */,
 				4893DE44261BD95A002737CD /* Model */,
 				48E80E5826309B4100334D41 /* Controller */,
 				48E80E5A26309B4800334D41 /* View */,
@@ -104,7 +120,8 @@
 			isa = PBXGroup;
 			children = (
 				4893DE4B261BDCA8002737CD /* HomeViewController.swift */,
-				48A5EEC1262525C100594426 /* AboutMeViewController.swift */,
+				48E80E642630EFC500334D41 /* AddViewController.swift */,
+				480EBA892643304300C29FDE /* AboutMeViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -131,6 +148,7 @@
 		8A999EBBF9CD35423EBD052D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				48A9647426434B8A003FEEB5 /* StoreKit.framework */,
 				4893DE83261E8849002737CD /* AppTrackingTransparency.framework */,
 				A53C902A0742600BE3AD721A /* Pods_TinyApp.framework */,
 			);
@@ -251,15 +269,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48E80E662630EFC500334D41 /* AddViewController.swift in Sources */,
 				4893DE4C261BDCA8002737CD /* HomeViewController.swift in Sources */,
 				48A5EEEF262528EC00594426 /* Total+CoreDataProperties.swift in Sources */,
 				4893DE24261BD8DB002737CD /* AppDelegate.swift in Sources */,
 				48A5EEE62625281700594426 /* TinyApp.xcdatamodeld in Sources */,
 				4893DE26261BD8DB002737CD /* SceneDelegate.swift in Sources */,
+				480EBA8D2643436800C29FDE /* PurchaseManager.swift in Sources */,
+				480EBA8A2643304300C29FDE /* AboutMeViewController.swift in Sources */,
 				48A5EEEE262528EC00594426 /* Total+CoreDataClass.swift in Sources */,
 				48A5EF2726261C1900594426 /* Item+CoreDataProperties.swift in Sources */,
 				48A5EEF0262528EC00594426 /* Item+CoreDataClass.swift in Sources */,
-				48A5EEC2262525C100594426 /* AboutMeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

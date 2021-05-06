@@ -8,15 +8,20 @@
 import UIKit
 import CoreData
 import GoogleMobileAds
+import StoreKit
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+    static var shared = (UIApplication.shared.delegate as! AppDelegate)
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        
+        PurchaseManager.instance.fetchProducts()
+        
         // Override point for customization after application launch.
         GADMobileAds.sharedInstance().start(completionHandler: nil)
+        
         return true
     }
 
